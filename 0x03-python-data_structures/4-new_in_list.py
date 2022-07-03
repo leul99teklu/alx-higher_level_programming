@@ -2,7 +2,7 @@
 def new_in_list(my_list, idx, element):
     length = len(my_list)
 
-    copy_my_list = my_list.copy()
+    new_list = my_list.copy()
     if 0 <= idx < length:
-        copy_my_list[idx] = element
-    return(copy_my_list)
+        new_list[idx] = element
+    return(new_list)
