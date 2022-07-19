@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""define MigicClass that dose bytecode"""
+
+
 import math
 
 
