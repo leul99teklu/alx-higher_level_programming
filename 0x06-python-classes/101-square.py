@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """ A class that defines a square by its size
+    """ A class that defines a square by its /size
     """
     def __str__(self):
         rtn = ""
@@ -53,11 +53,11 @@ class Square:
     def position(self, value):
         """ Method that sets the position value of a square object
         """
-        if not isinstance(value, tuple)://condition1
+        if not isinstance(value, tuple):
             raise TypeError("position must be a tuple of 2 positive integers")
         if len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
-        if not isinstance(value[0], int)://cond2
+        if not isinstance(value[0], int):
             raise TypeError("position must be a tuple of 2 positive integers")
         if not isinstance(value[1], int):
             raise TypeError("position must be a tuple of 2 positive integers")
