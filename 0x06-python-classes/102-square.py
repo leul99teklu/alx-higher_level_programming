@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""define class square based on task 4"""
+
+
 class Square:
     """ A class that defines a square by its /size
     """
